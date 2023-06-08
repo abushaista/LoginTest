@@ -35,6 +35,7 @@ public static class Extensions
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Secret))
                 });
         var dbOptions = new DbOptions();
+        config.Bind(DbOptions.SectionName, dbOptions);
         services.AddDbContext<ApplicationDbContext>(opt => opt.UseMySql(dbOptions.ConnectionString, ServerVersion.AutoDetect(dbOptions.ConnectionString)));
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddAuthorization(options =>
