@@ -1,0 +1,15 @@
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/bin/Debug/net6.0/LoginTest.Application.deps.json
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/bin/Debug/net6.0/LoginTest.Application.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/bin/Debug/net6.0/LoginTest.Application.pdb
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/bin/Debug/net6.0/LoginTest.Domain.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/bin/Debug/net6.0/LoginTest.Domain.pdb
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.csproj.AssemblyReference.cache
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.AssemblyInfoInputs.cache
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.AssemblyInfo.cs
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.csproj.CoreCompileInputs.cache
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.csproj.CopyComplete
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/refint/LoginTest.Application.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/LoginTest.Application.pdb
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/Debug/net6.0/ref/LoginTest.Application.dll

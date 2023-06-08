@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj",
+        "projectName": "LoginTest.Application",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj",
+        "projectName": "LoginTest.Domain",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

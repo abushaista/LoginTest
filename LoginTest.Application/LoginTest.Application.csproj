@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoginTest.Domain\LoginTest.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Authentication\" />
+    <None Remove="Authentication\Query\" />
+    <None Remove="Authentication\Commands\" />
+    <None Remove="Authentication\Commons\" />
+    <None Remove="Abstraction\" />
+    <None Remove="Abstraction\Messaging\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Authentication\" />
+    <Folder Include="Authentication\Queries\" />
+    <Folder Include="Authentication\Commands\" />
+    <Folder Include="Authentication\Commons\" />
+    <Folder Include="Abstraction\" />
+    <Folder Include="Abstraction\Messaging\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+  </ItemGroup>
+</Project>

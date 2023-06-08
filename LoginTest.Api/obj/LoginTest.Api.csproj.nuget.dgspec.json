@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Api/LoginTest.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Api/LoginTest.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Api/LoginTest.Api.csproj",
+        "projectName": "LoginTest.Api",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Api/LoginTest.Api.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj"
+              },
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/LoginTest.Contracts.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/LoginTest.Contracts.csproj"
+              },
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj"
+              },
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Infrastructure/LoginTest.Infrastructure.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Infrastructure/LoginTest.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Carter": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj",
+        "projectName": "LoginTest.Application",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/LoginTest.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/LoginTest.Contracts.csproj",
+        "projectName": "LoginTest.Contracts",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/LoginTest.Contracts.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj",
+        "projectName": "LoginTest.Domain",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arifhidayat/Projects/LoginTest/LoginTest.Infrastructure/LoginTest.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Infrastructure/LoginTest.Infrastructure.csproj",
+        "projectName": "LoginTest.Infrastructure",
+        "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Infrastructure/LoginTest.Infrastructure.csproj",
+        "packagesPath": "/Users/arifhidayat/.nuget/packages/",
+        "outputPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arifhidayat/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Application/LoginTest.Application.csproj"
+              },
+              "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj": {
+                "projectPath": "/Users/arifhidayat/Projects/LoginTest/LoginTest.Domain/LoginTest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

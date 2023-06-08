@@ -1,0 +1,12 @@
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/bin/Debug/net6.0/LoginTest.Contracts.deps.json
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/bin/Debug/net6.0/LoginTest.Contracts.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/bin/Debug/net6.0/LoginTest.Contracts.pdb
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.csproj.AssemblyReference.cache
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.AssemblyInfoInputs.cache
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.AssemblyInfo.cs
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.csproj.CoreCompileInputs.cache
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/refint/LoginTest.Contracts.dll
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/LoginTest.Contracts.pdb
+/Users/arifhidayat/Projects/LoginTest/LoginTest.Contracts/obj/Debug/net6.0/ref/LoginTest.Contracts.dll
